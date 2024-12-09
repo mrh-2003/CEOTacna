@@ -103,7 +103,7 @@
                             <div class="card-body">
                                 <br>
                                 <h3 class="card-title text-center text-primary mb-4">INSCRÍBETE AHORA</h3> <br>
-                                <form>
+                                <form id="matematicaForm">
                                     <div class="row mb-3">
                                         <div class="col-md-6">
                                             <label class="form-label">Nombres</label>
@@ -225,7 +225,12 @@
             </div>
         </div>
     </footer>
-    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap.bundle.js">
+        document.getElementById('matematicaForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('¡Gracias por tu mensaje! Nos pondremos en contacto pronto.');
+        });
+    </script>
 </body>
 
 </html>
