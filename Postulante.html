@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEO TACNA</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1858D9;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white d-flex align-items-center" href="#">
+                <img src="./img/LOGO 1.png" alt="Logo" width="50" height="50" class="me-2">
+                <div class="d-flex flex-column">
+                    <div class="fs-6">Centro Educativo</div>
+                    <div class="fs-6">Orientacional - TACNA</div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="./Index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./Nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cursos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./Matemática.html">Matemática</a></li>
+                            <li><a class="dropdown-item" href="./Lenguaje.html">Lenguaje</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="./Ingles.html">Ingles</a></li>
+                            <li><a class="dropdown-item" href="./Ofimatica.html">Ofimatica</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./contactanos.html">Contáctenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./Postulante.html">Trabaja con nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <article>
+
+     <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow-lg border-0 rounded-lg">
+                    <div class="card-header bg-primary text-white text-center py-4">
+                          
+                        <h2 class="m-0">ÚNETE A NUESTRO EQUIPO</h2>
+                    </div>
+                    <div class="card-body p-5">
+                        <div class="text-center mb-4">
+                            <h4 class="text-primary">¡Postula y únete a nuestro equipo para
+                                transformar la educación en el Perú!</h4>
+                            <p class="text-muted">Completa tu postulación y sé parte de nuestro equipo innovador</p>
+                        </div>
+    
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-12">
+                                    <label class="form-label fw-bold">Nombres completos</label>
+                                    <input type="text" class="form-control form-control-lg" required>
+                                </div>
+    
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Correo electrónico</label>
+                                    <input type="email" class="form-control form-control-lg" required>
+                                </div>
+    
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Teléfono</label>
+                                    <input type="tel" class="form-control form-control-lg" required>
+                                </div>
+    
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Puesto de interés</label>
+                                    <select class="form-select form-select-lg" required>
+                                        <option value="">Selecciona un puesto</option>
+                                        <option>Practicante</option>
+                                        <option>Docente</option>
+                                        <option>Coordinador Académico</option>
+                                    </select>
+                                </div>
+    
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Área</label>
+                                    <select class="form-select form-select-lg" required>
+                                        <option value="">Selecciona un área</option>
+                                        <option>Álgebra</option>
+                                        <option>Geometría</option>
+                                        <option>Aritmética</option>
+                                        <option>Razonamiento Verbal</option>
+                                        <option>Inglés</option>
+                                        <option>Ofimática</option>
+
+                                    </select>
+                                </div>
+    
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">DNI</label>
+                                    <input type="text" class="form-control form-control-lg" required>
+                                </div>
+    
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Enlace de CV</label>
+                                    <input type="url" class="form-control form-control-lg" placeholder="LinkedIn o portafolio">
+                                </div>
+    
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" required>
+                                        <label class="form-check-label">
+                                            Acepto las políticas de tratamiento de datos personales
+                                        </label>
+                                    </div>
+                                </div>
+    
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">
+                                        Enviar Postulación
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    </article>
+
+    <section class="container mt-2">
+      <h2 class="text-primary" > <mark> Con el respaldo de:</mark></h2> <br>
+      <div class="image-marquee">
+        <div class="images">
+          <img src="./img/unjbg.png" alt="imagen 1">
+          <img src="./img/ITEL.png" alt="imagen 2">
+          <img src="./img/SENATI.png" alt="imagen 3">
+          <img src="./img/CEID.png" alt="imagen 4">
+          <img src="./img/minedu.png" alt="imagen 5">
+          <img src="./img/dret.png" alt="imagen 6">
+        </div>
+      </div>
+    </section>
+    <footer class="bg-primary text-white mt-4">
+      <div class="container p-4">
+        <div class="row">
+      <div class="col-12 col-md-6 text-center text-md-start">
+        <h5>Siguenos en nuestras redes sociales</h5>
+        <div class="d-flex justify-content-center justify-content-md-start">
+        <a href="https://www.facebook.com/@ailed.calizaya.5/"><img src="./img/icons/facebook.svg" alt="" class="social-icon img-white"></a>
+        <a href="https://twitter.com/"><img src="./img/icons/twitter.svg" alt="" class="social-icon img-white ms-2"></a>
+        <a href="https://www.instagram.com/"><img src="./img/icons/instagram.svg" alt="" class="social-icon img-white ms-2 "></a>
+        <a href="https://www.linkedin.com/"><img src="./img/icons/linkedin.svg" alt="" class="social-icon img-white ms-2"></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 text-center text-md-end">
+      <h5>Encuentranos en google Maps</h5>
+      <a href="https://www.google.com/maps" class="text-white text-decoration-none"><img src="./img/icons/map-fill.svg" alt="" class="social-icon img-white"> Ubicanos</a>
+      </div>
+      </div>
+      </div>
+
+    </footer>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
