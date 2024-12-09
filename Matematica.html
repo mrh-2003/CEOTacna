@@ -188,6 +188,13 @@
         <br>
     </section>
     </section>
+    <script>
+        document.getElementById('matematicaForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('¡Gracias por tu mensaje! Nos pondremos en contacto pronto.');
+        });
+    </script>
+
     <section class="container mt-2">
         <h2 class="text-primary"> <br> <mark>Con el respaldo de:</mark> <br></h2>
         <div class="image-marquee">
@@ -225,12 +232,7 @@
             </div>
         </div>
     </footer>
-    <script src="./js/bootstrap.bundle.js">
-        document.getElementById('matematicaForm').addEventListener('submit', function (e) {
-            e.preventDefault();
-            alert('¡Gracias por tu mensaje! Nos pondremos en contacto pronto.');
-        });
-    </script>
+    <script src="./js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
